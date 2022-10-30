@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="weather">
+      <div class="container">
+        <div class="weather__info">
+          <div class="weather__sidebar">
+            <div class="weather__sidebar-top">
+              <span class="material-icons-outlined weather__sidebar-add-btn">
+                add
+              </span>
+
+              <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+
+              <div class="theme">
+                <span>°C</span>
+                <div class="theme__bar"></div>
+                <span>°F</span>
+              </div>
+            </div>
+
+            <div class="weather__sidebar-main">
+              <div class="weather__sidebar-main-content">
+                <div class="weather__details">
+                  <p class="weather__city">
+                    <span class="material-icons-outlined"> send </span>
+                    New York, USA
+                  </p>
+                  <p class="weather__time">
+                    <span class="material-icons-outlined"> wb_twilight </span
+                    >07:19
+                  </p>
+                </div>
+
+                <div class="weather__details">
+                  <p class="weather__date">Today 28Sept</p>
+                  <p class="weather__time">
+                    <span class="material-icons-outlined"> wb_twilight </span
+                    >19:32
+                  </p>
+                </div>
+              </div>
+
+              <div class="weather__banner">
+                <div class="weather__banner-current-weather">
+                  27<small>&deg;</small>
+                </div>
+
+                <div class="weather__banner-prev-icon">
+                  <span class="material-icons-outlined"> chevron_left </span>
+                </div>
+                <div class="weather__banner-next-icon">
+                  <span class="material-icons-outlined"> chevron_right </span>
+                </div>
+
+                <div class="weather__banner-current-weather-text">
+                  <span class="material-icons-outlined"> wb_sunny </span>
+                  Sunny
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="weather__main">
+            <div class="weather__main-top">
+              <div>
+                <h3 class="welcome">Wecome back isabella!</h3>
+                <p class="description">Check out today's weather information</p>
+              </div>
+
+              <div class="profile">
+                <div class="dots">
+                  <div class="dot dark"></div>
+                  <div class="dot dark"></div>
+                  <div class="dot dark"></div>
+                </div>
+                <img src="./src/images/profile.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="weather__main-details">
+              <div class="weather__main-details-top">
+                <h3 class="weather__main-details-hours">Upcoming hours</h3>
+
+                <div class="weather__main-details-btns">
+                  <button class="weather__main-details-btn" disabled>
+                    Rain precipeitation
+                    <span class="material-icons-outlined"> expand_more </span>
+                  </button>
+                  <button class="weather__main-details-btn">
+                    Next days
+                    <span class="material-icons-outlined"> chevron_right </span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="weather__main-upcoming-weathers">
+                <!-- weather-1 -->
+                <div class="weather__main-upcoming-weather">
+                  <p class="time">Now</p>
+                  <span class="material-icons-outlined"> wb_sunny </span>
+                  <p class="degree">27°</p>
+                  <div class="line"></div>
+                  <small class="percentage">23%</small>
+                </div>
+                <!-- weather-2 -->
+                <div class="weather__main-upcoming-weather">
+                  <p class="time">11:00</p>
+                  <span class="material-icons-outlined"> wb_sunny </span>
+                  <p class="degree">28°</p>
+                  <div class="line"></div>
+                  <small class="percentage">29%</small>
+                </div>
+                <!-- weather-3 -->
+                <div class="weather__main-upcoming-weather">
+                  <p class="time">12:00</p>
+                  <span class="material-icons-outlined"> cloud </span>
+                  <p class="degree">28°</p>
+                  <div class="line"></div>
+                  <small class="percentage">50%</small>
+                </div>
+                <!-- weather-4 -->
+                <div class="weather__main-upcoming-weather">
+                  <p class="time">13:00</p>
+                  <span class="material-icons-outlined"> cloud </span>
+                  <p class="degree">29°</p>
+                  <div class="line"></div>
+                  <small class="percentage">75%</small>
+                </div>
+                <!-- weather-5 -->
+                <div class="weather__main-upcoming-weather">
+                  <p class="time">14:00</p>
+                  <span class="material-icons-outlined"> wb_sunny </span>
+                  <p class="degree">30°</p>
+                  <div class="line"></div>
+                  <small class="percentage">33%</small>
+                </div>
+                <!-- weather-6 -->
+                <div class="weather__main-upcoming-weather">
+                  <p class="time">15:00</p>
+                  <span class="material-icons-outlined"> cloud </span>
+                  <p class="degree">29°</p>
+                  <div class="line"></div>
+                  <small class="percentage">20%</small>
+                </div>
+                <!-- weather-7 -->
+                <div class="weather__main-upcoming-weather">
+                  <p class="time">16:00</p>
+                  <span <span class="material-icons-outlined"> cloud </span>
+                  <p class="degree">29°</p>
+                  <div class="line"></div>
+                  <small class="percentage">73%</small>
+                </div>
+                <!-- weather-8 -->
+                <div class="weather__main-upcoming-weather">
+                  <p class="time">17:00</p>
+                  <span class="material-icons-outlined"> wb_sunny </span>
+                  <p class="degree">28°</p>
+                  <div class="line"></div>
+                  <small class="percentage">49%</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="weather__main-todays-weather">
+              <h3 class="title">More details of todays weather</h3>
+
+              <div class="weather-cards">
+                <!-- card-1 -->
+                <div class="card">
+                  <div class="card__top">
+                    <div class="card__title">Humidity</div>
+                    <span class="material-icons-outlined card__icon">
+                      water_drop
+                    </span>
+                  </div>
+                  <div class="card__body">82% <small>bad</small></div>
+                  <div class="card__bars">
+                    <div>
+                      <p>Good</p>
+                      <div class="bar">
+                        <div style="width: 100%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Normal</p>
+                      <div class="bar">
+                        <div style="width: 100%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>bad</p>
+                      <div class="bar">
+                        <div style="width: 20%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- card-2 -->
+                <div class="card">
+                  <div class="card__top">
+                    <div class="card__title">Wind</div>
+                    <span class="material-icons-outlined card__icon">
+                      wind_power
+                    </span>
+                  </div>
+                  <div class="card__body">8km/h</div>
+                  <div class="card__bars">
+                    <div>
+                      <p>5km/h</p>
+                      <div class="bar">
+                        <div style="width: 100%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>8km/h</p>
+                      <div class="bar">
+                        <div style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>10km/h</p>
+                      <div class="bar"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- card-3 -->
+                <div class="card">
+                  <div class="card__top">
+                    <div class="card__title">Precipitation</div>
+                    <span class="material-icons-outlined card__icon">
+                      cloud_queue
+                    </span>
+                  </div>
+                  <div class="card__body">82% <small>bad</small></div>
+                  <div class="card__bars">
+                    <div>
+                      <p>0</p>
+                      <div class="bar small">
+                        <div style="width: 100%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>10</p>
+                      <div class="bar small">
+                        <div style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>20</p>
+                      <div class="bar small"></div>
+                    </div>
+                    <div>
+                      <p>30</p>
+                      <div class="bar small"></div>
+                    </div>
+                    <div>
+                      <p>40</p>
+                      <div class="bar small"></div>
+                    </div>
+                    <div>
+                      <p>50</p>
+                      <div class="bar small"></div>
+                    </div>
+                    <div>
+                      <p>60</p>
+                      <div class="bar small"></div>
+                    </div>
+                    <div>
+                      <p>70</p>
+                      <div class="bar small"></div>
+                    </div>
+                    <div>
+                      <p>80</p>
+                      <div class="bar small"></div>
+                    </div>
+                    <div>
+                      <p>90</p>
+                      <div class="bar small"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- card-4 -->
+                <div class="card">
+                  <div class="card__top">
+                    <div class="card__title">UV Index</div>
+                    <span class="material-icons-outlined card__icon">
+                      wb_sunny
+                    </span>
+                  </div>
+                  <div class="card__body">4 <small>medium</small></div>
+                  <div class="card__bars">
+                    <div>
+                      <p>0-2</p>
+                      <div class="bar medium">
+                        <div style="width: 100%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>3-5</p>
+                      <div class="bar medium">
+                        <div style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>6-7</p>
+                      <div class="bar medium"></div>
+                    </div>
+                    <div>
+                      <p>8-10</p>
+                      <div class="bar medium"></div>
+                    </div>
+                    <div>
+                      <p>11+</p>
+                      <div class="bar medium"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- card-5 -->
+                <div class="card">
+                  <div class="card__top">
+                    <div class="card__title">Feels like</div>
+                    <span class="material-icons-outlined card__icon">
+                      thermostat
+                    </span>
+                  </div>
+                  <div class="card__body">30°</div>
+                  <div class="card__bars">
+                    <div>
+                      <p>0°</p>
+                    </div>
+                    <div>
+                      <p>25°</p>
+                    </div>
+                    <div>
+                      <p>50°</p>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div style="width: 75%"></div>
+                  </div>
+                </div>
+
+                <!-- card-6 -->
+                <div class="card">
+                  <div class="card__top">
+                    <div class="card__title">Chance of rain</div>
+                    <span class="material-icons-outlined card__icon">
+                      beach_access
+                    </span>
+                  </div>
+                  <div class="card__body">42%</div>
+                  <div class="card__bars">
+                    <div>
+                      <p>0%</p>
+                    </div>
+                    <div>
+                      <p>25%</p>
+                    </div>
+                    <div>
+                      <p>50%</p>
+                    </div>
+                    <div>
+                      <p>75%</p>
+                    </div>
+                    <div>
+                      <p>100%</p>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div style="width: 40%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
