@@ -37,6 +37,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
+  background-color: #b4d7fe;
 }
 
 /* A elements that don't have a class get default styles */
@@ -152,7 +153,6 @@ select {
   width: 100%;
   height: auto;
   padding: 30px 10px;
-  background-color: #b4d7fe;
 }
 .weather__info {
   display: grid;
